@@ -44,40 +44,44 @@ namespace aplikacjaKartoniarka {
             this.database1DataSet = new aplikacjaKartoniarka.Database1DataSet();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.textDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripTextBox4 = new System.Windows.Forms.ToolStripTextBox();
             this.tabela2BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.textDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripTextBox5 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
             this.tabela3BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.textDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripTextBox7 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripTextBox8 = new System.Windows.Forms.ToolStripTextBox();
             this.tabela4BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabela1TableAdapter = new aplikacjaKartoniarka.Database1DataSetTableAdapters.tabela1TableAdapter();
             this.tabela2TableAdapter = new aplikacjaKartoniarka.Database1DataSetTableAdapters.tabela2TableAdapter();
             this.tabela3TableAdapter = new aplikacjaKartoniarka.Database1DataSetTableAdapters.tabela3TableAdapter();
             this.tabela4TableAdapter = new aplikacjaKartoniarka.Database1DataSetTableAdapters.tabela4TableAdapter();
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripTextBox4 = new System.Windows.Forms.ToolStripTextBox();
-            this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripTextBox5 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripTextBox6 = new System.Windows.Forms.ToolStripTextBox();
-            this.contextMenuStrip4 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripTextBox7 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripTextBox8 = new System.Windows.Forms.ToolStripTextBox();
+            this.database1DataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSetBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabela1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.contextMenuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabela2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.contextMenuStrip3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabela3BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tabela4BindingSource)).BeginInit();
-            this.contextMenuStrip2.SuspendLayout();
-            this.contextMenuStrip3.SuspendLayout();
             this.contextMenuStrip4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabela4BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSetBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSetBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -239,13 +243,13 @@ namespace aplikacjaKartoniarka {
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.textDataGridViewTextBoxColumn1});
+            this.dataGridView2.ContextMenuStrip = this.contextMenuStrip2;
             this.dataGridView2.DataSource = this.tabela2BindingSource;
             this.dataGridView2.Location = new System.Drawing.Point(496, 12);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(144, 626);
             this.dataGridView2.TabIndex = 10;
             this.dataGridView2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView2_MouseDown);
-            this.dataGridView2.ContextMenuStrip = contextMenuStrip2;
             // 
             // textDataGridViewTextBoxColumn1
             // 
@@ -253,83 +257,6 @@ namespace aplikacjaKartoniarka {
             this.textDataGridViewTextBoxColumn1.HeaderText = "ZP";
             this.textDataGridViewTextBoxColumn1.Name = "textDataGridViewTextBoxColumn1";
             this.textDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // tabela2BindingSource
-            // 
-            this.tabela2BindingSource.DataMember = "tabela2";
-            this.tabela2BindingSource.DataSource = this.database1DataSet;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToOrderColumns = true;
-            this.dataGridView3.AutoGenerateColumns = false;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.textDataGridViewTextBoxColumn2});
-            this.dataGridView3.DataSource = this.tabela3BindingSource;
-            this.dataGridView3.Location = new System.Drawing.Point(698, 12);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(144, 626);
-            this.dataGridView3.TabIndex = 11;
-            this.dataGridView3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView3_MouseDown);
-            this.dataGridView3.ContextMenuStrip = contextMenuStrip3;
-            // 
-            // textDataGridViewTextBoxColumn2
-            // 
-            this.textDataGridViewTextBoxColumn2.DataPropertyName = "text";
-            this.textDataGridViewTextBoxColumn2.HeaderText = "ZP";
-            this.textDataGridViewTextBoxColumn2.Name = "textDataGridViewTextBoxColumn2";
-            this.textDataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // tabela3BindingSource
-            // 
-            this.tabela3BindingSource.DataMember = "tabela3";
-            this.tabela3BindingSource.DataSource = this.database1DataSet;
-            // 
-            // dataGridView4
-            // 
-            this.dataGridView4.AllowUserToAddRows = false;
-            this.dataGridView4.AllowUserToOrderColumns = true;
-            this.dataGridView4.AutoGenerateColumns = false;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.textDataGridViewTextBoxColumn3});
-            this.dataGridView4.DataSource = this.tabela4BindingSource;
-            this.dataGridView4.Location = new System.Drawing.Point(906, 12);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(144, 626);
-            this.dataGridView4.TabIndex = 12;
-            this.dataGridView4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView4_MouseDown);
-            this.dataGridView4.ContextMenuStrip = contextMenuStrip4;
-            // 
-            // textDataGridViewTextBoxColumn3
-            // 
-            this.textDataGridViewTextBoxColumn3.DataPropertyName = "text";
-            this.textDataGridViewTextBoxColumn3.HeaderText = "ZP";
-            this.textDataGridViewTextBoxColumn3.Name = "textDataGridViewTextBoxColumn3";
-            this.textDataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // tabela4BindingSource
-            // 
-            this.tabela4BindingSource.DataMember = "tabela4";
-            this.tabela4BindingSource.DataSource = this.database1DataSet;
-            // 
-            // tabela1TableAdapter
-            // 
-            this.tabela1TableAdapter.ClearBeforeFill = true;
-            // 
-            // tabela2TableAdapter
-            // 
-            this.tabela2TableAdapter.ClearBeforeFill = true;
-            // 
-            // tabela3TableAdapter
-            // 
-            this.tabela3TableAdapter.ClearBeforeFill = true;
-            // 
-            // tabela4TableAdapter
-            // 
-            this.tabela4TableAdapter.ClearBeforeFill = true;
             // 
             // contextMenuStrip2
             // 
@@ -357,6 +284,34 @@ namespace aplikacjaKartoniarka {
             this.toolStripTextBox4.Text = "Zaznacz jako zrobione";
             this.toolStripTextBox4.Click += new System.EventHandler(this.toolStripTextBox4_Click);
             // 
+            // tabela2BindingSource
+            // 
+            this.tabela2BindingSource.DataMember = "tabela2";
+            this.tabela2BindingSource.DataSource = this.database1DataSet;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToOrderColumns = true;
+            this.dataGridView3.AutoGenerateColumns = false;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.textDataGridViewTextBoxColumn2});
+            this.dataGridView3.ContextMenuStrip = this.contextMenuStrip3;
+            this.dataGridView3.DataSource = this.tabela3BindingSource;
+            this.dataGridView3.Location = new System.Drawing.Point(698, 12);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(144, 626);
+            this.dataGridView3.TabIndex = 11;
+            this.dataGridView3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView3_MouseDown);
+            // 
+            // textDataGridViewTextBoxColumn2
+            // 
+            this.textDataGridViewTextBoxColumn2.DataPropertyName = "text";
+            this.textDataGridViewTextBoxColumn2.HeaderText = "ZP";
+            this.textDataGridViewTextBoxColumn2.Name = "textDataGridViewTextBoxColumn2";
+            this.textDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
             // contextMenuStrip3
             // 
             this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -383,6 +338,34 @@ namespace aplikacjaKartoniarka {
             this.toolStripTextBox6.Text = "Zaznacz jako zrobione";
             this.toolStripTextBox6.Click += new System.EventHandler(this.toolStripTextBox6_Click);
             // 
+            // tabela3BindingSource
+            // 
+            this.tabela3BindingSource.DataMember = "tabela3";
+            this.tabela3BindingSource.DataSource = this.database1DataSet;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.AllowUserToAddRows = false;
+            this.dataGridView4.AllowUserToOrderColumns = true;
+            this.dataGridView4.AutoGenerateColumns = false;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.textDataGridViewTextBoxColumn3});
+            this.dataGridView4.ContextMenuStrip = this.contextMenuStrip4;
+            this.dataGridView4.DataSource = this.tabela4BindingSource;
+            this.dataGridView4.Location = new System.Drawing.Point(906, 12);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.Size = new System.Drawing.Size(144, 626);
+            this.dataGridView4.TabIndex = 12;
+            this.dataGridView4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridView4_MouseDown);
+            // 
+            // textDataGridViewTextBoxColumn3
+            // 
+            this.textDataGridViewTextBoxColumn3.DataPropertyName = "text";
+            this.textDataGridViewTextBoxColumn3.HeaderText = "ZP";
+            this.textDataGridViewTextBoxColumn3.Name = "textDataGridViewTextBoxColumn3";
+            this.textDataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
             // contextMenuStrip4
             // 
             this.contextMenuStrip4.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -408,6 +391,37 @@ namespace aplikacjaKartoniarka {
             this.toolStripTextBox8.Size = new System.Drawing.Size(100, 23);
             this.toolStripTextBox8.Text = "Zaznacz jako zrobione";
             this.toolStripTextBox8.Click += new System.EventHandler(this.toolStripTextBox8_Click);
+            // 
+            // tabela4BindingSource
+            // 
+            this.tabela4BindingSource.DataMember = "tabela4";
+            this.tabela4BindingSource.DataSource = this.database1DataSet;
+            // 
+            // tabela1TableAdapter
+            // 
+            this.tabela1TableAdapter.ClearBeforeFill = true;
+            // 
+            // tabela2TableAdapter
+            // 
+            this.tabela2TableAdapter.ClearBeforeFill = true;
+            // 
+            // tabela3TableAdapter
+            // 
+            this.tabela3TableAdapter.ClearBeforeFill = true;
+            // 
+            // tabela4TableAdapter
+            // 
+            this.tabela4TableAdapter.ClearBeforeFill = true;
+            // 
+            // database1DataSetBindingSource1
+            // 
+            this.database1DataSetBindingSource1.DataSource = this.database1DataSet;
+            this.database1DataSetBindingSource1.Position = 0;
+            // 
+            // database1DataSetBindingSource2
+            // 
+            this.database1DataSetBindingSource2.DataSource = this.database1DataSet;
+            this.database1DataSetBindingSource2.Position = 0;
             // 
             // Form1
             // 
@@ -437,17 +451,19 @@ namespace aplikacjaKartoniarka {
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tabela2BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tabela3BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tabela4BindingSource)).EndInit();
             this.contextMenuStrip2.ResumeLayout(false);
             this.contextMenuStrip2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabela2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.contextMenuStrip3.ResumeLayout(false);
             this.contextMenuStrip3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabela3BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.contextMenuStrip4.ResumeLayout(false);
             this.contextMenuStrip4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabela4BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSetBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSetBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -494,6 +510,8 @@ namespace aplikacjaKartoniarka {
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip4;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox7;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox8;
+        private System.Windows.Forms.BindingSource database1DataSetBindingSource1;
+        private System.Windows.Forms.BindingSource database1DataSetBindingSource2;
     }
 }
 
